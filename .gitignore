@@ -1,0 +1,6 @@
+/* IDE cache directories */
+.vscode
+.idea
+
+node_modules
+dist/*
