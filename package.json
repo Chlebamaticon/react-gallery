@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
-  "version": "0.1.1",
-  "description": "React application boilerplate with lazy-loading structure",
+  "name": "react-gallery",
+  "version": "0.1.0",
+  "description": "Virtual gallery component",
   "main": "index.js",
   "scripts": {
     "start": "npm run serve",
@@ -10,10 +10,7 @@
     "build:prod": "webpack --config bundle/webpack.config --env.NODE_ENV=production",
     "build:dev": "webpack --config bundle/webpack.config --env.NODE_ENV=development"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Chlebamaticon/react-boilerplate.git"
-  },
+  "repository": "git@github.com:Chlebamaticon/react-gallery.git",
   "license": "MIT",
   "private": true,
   "devDependencies": {
@@ -51,5 +48,6 @@
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
-  }
+  },
+  "author": "Jakub Chlebowicz <me@jakubchlebowicz.com\n:>"
 }
