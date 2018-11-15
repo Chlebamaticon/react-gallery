@@ -8,20 +8,8 @@ export const Layout = (props: LayoutProps = { orientation: 'portrait' }) => {
 
     return (
         <React.Fragment>
-            <div className="l-topbar">
-            
-            </div>
-
             <div className="l-container">
-                
-                <div className="l-sidebar">
-                
-                </div>
-                
-                <div className="l-router">
-                    { props.children }
-                </div>
-
+                { props.children }
             </div>
         </React.Fragment>
     );
